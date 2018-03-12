@@ -18,6 +18,7 @@ class Login extends Component {
     dispatch(handleLogin(email, password, history));
   }
 
+  //need a box to check for remember me.
   render() {
     const { email, password } = this.state;
     return (
