@@ -16,6 +16,7 @@ class Register extends Component {
     } else dispatch(setFlash('Passwords do not match!, please try again', 'red'));
   }
 
+  //Need to pull in the user info first
   handleChange = event => {
     const id = event.target.id;
     const value = event.target.value;
